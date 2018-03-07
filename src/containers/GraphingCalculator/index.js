@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import math from 'mathjs';
-import '../../App.css';
 import { Grid, Column, Box, Flex, Relative, Absolute} from 'rebass';
 import { CalculatorShape}  from './styles';
 import CanvasGraph from '../../components/CanvasGraph';

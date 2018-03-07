@@ -1,7 +1,8 @@
 import React from 'react';
 import {CanvasWrapper} from './styles';
-class CanvasComponent extends React.Component {
 
+// adapted from http://matt.might.net/articles/rendering-mathematical-functions-in-javascript-with-canvas-html/
+class CanvasComponent extends React.Component {
     constructor(props) {
         super(props);
          this.Height = props.height;
@@ -18,7 +19,6 @@ class CanvasComponent extends React.Component {
             height: props.height,
             width: props.width,
             equation: props.equation,
-            canvasReady: false,
             XSTEP: (this.MaxX - this.MinX) / props.width 
         }
     }
